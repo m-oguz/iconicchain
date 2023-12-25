@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family:Cambria;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(173, 181, 204, 0.842);
+    color: rgb(8, 37, 63);
+}
+
+footer {
+    margin-top: auto;
+}
+
+.navbar {
+    background-color: #413838; 
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    bottom: 0; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vh;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+    transition: color 0.3s ease;
+
+}
+
+    
+table{
+    width: 99%; 
+}
+
+td {
+    text-align: center;
+}
+
+
+.auth {
+    height: 5vh;
+    width: 100%;
+    text-align: right;
+    background-color: black;
+    color: #fff;
+}
+
+.auth a{
+    color: #ffffff;
+    margin-right: 5vw;
+}
+
+
+form {
+    width: 80vw;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #24b428;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1c501f;
+}
+
+.login-error{
+    width:100%;
+    background-color: #ff0000;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4vh;
+    border-radius: 3px;
+}
+
+
+th{
+    background-color: #2e5ea7;
+    height: 5vh;
+}
+.list-item{
+    height: 5vh;
+}
+
+.list-item:hover{
+    background-color: #2e5ea7;
+    color: #fff;
+}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title%} COMPANIES | FILEBASE {%endblock%}
+
+{%block content%}
+  <h1>MEMBER COMPANIES</h1>
+  {%for company in companies %}
+    {{company.name}} <br>
+  {%endfor%}
+{%endblock%}
+

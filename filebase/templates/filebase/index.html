@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{%load static%}
+{%block title%} HOME | FILEBASE {%endblock%}
+{%block style%}
+<link rel="stylesheet" href="{% static 'filebase/css/style.css' %}"> {%endblock%}
+{%block content%}
+<h1>TEST PROJECT HOMEPAGE</h1>
+<h1>Most Downloaded</h1>
+<table>
+    <tr>
+        <th> File Name </th>
+        <th> Downloads </th>
+        <th> Uploaded by </th>
+        <th>Company</th>
+    </tr>
+    {%for file in files%}
+    <tr class="list-item">
+        <td>
+            {%if user.is_authenticated %}
+            <a href="{% url 'download' file.id %}">{{file.name}} </a>
+            {%else%} {{file.name}}
+            {%endif%}
+        </td>  
+        <td>{{file.download_counter}}</td>
+        <td>{{file.uploader}}</td>
+        <td>{{file.company}}</td>
+    </tr>
+    {%endfor%}
+</table>
+{% endblock %}

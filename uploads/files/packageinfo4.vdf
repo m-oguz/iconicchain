@@ -1,0 +1,55 @@
+"Depot"
+{
+	"info"
+	{
+		"tag"		"1.0.0.360"
+		"branch"		"master"
+		"flags"		"5"
+		"fork"		"Eng"
+		"version"		"1744830465"
+		"updated_at"		"0x00000000641B22BD"
+		"tags"
+		{
+			"1.0.0.358"
+			{
+				"updated_at"		"0x000000006215D872"
+				"branch"		"master"
+				"flags"		"1"
+			}
+			"1.0.0.360"
+			{
+				"updated_at"		"0x00000000641B2287"
+				"branch"		"master"
+				"flags"		"1"
+			}
+		}
+		"message"
+		{
+			"RU"		"Обновление
+"
+			"EN"		"Update
+"
+		}
+		"forks"
+		{
+			"Eng"
+			{
+				"tags"
+				{
+					"1.0.0.358"
+					{
+						"updated_at"		"0x000000006215D8DF"
+						"branch"		"master"
+						"flags"		"5"
+					}
+					"1.0.0.360"
+					{
+						"updated_at"		"0x00000000641B22BD"
+						"branch"		"master"
+						"flags"		"5"
+					}
+				}
+			}
+		}
+	}
+}
